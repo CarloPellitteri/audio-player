@@ -1,0 +1,18 @@
+.audio-player-list-item {
+  border-radius: 16px;
+  display: block;
+  padding: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e8e8f2;
+  }
+}
+
+.audio-player-list-item-active {
+  background-color: #b0b0de;
+
+  &:hover {
+    background-color: #b0b0de;
+  }
+}

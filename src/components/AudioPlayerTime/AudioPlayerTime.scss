@@ -1,0 +1,19 @@
+.audio-player-progress-bar {
+  display: block;
+  cursor: pointer;
+}
+
+.audio-player-progress-bar-background {
+  border-bottom: 1px solid #8796c1;
+  margin: 8px 0;
+  position: relative;
+}
+
+.audio-player-progress-bar-cursor {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #8796c1;
+  position: relative;
+  transform: translate(-50%, 100%);
+}
